@@ -1,9 +1,28 @@
-# CodeIgniter 2
-Open Source PHP Framework (originally from EllisLab)
+CodeIgniter Blog Application
+A simple blog application using CodeIgniter framework.
 
-For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
-(also available within the download package for offline use)
+Specifications
+CodeIgniter 2.2.6
 
-**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
-Please update your installation to the latest CodeIgniter 3.x version available
-(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
+Project Goals
+Use Github as a git repository hosting service.
+Utilized to an extent the capabilities of CodeIgniter framework.
+Implement features/fixes using Git workflow.
+Resources
+https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line
+
+Scopes
+
+USERS
+
+User can login/logout to the application
+User should have one applicant account
+User Should only have one questionnaire
+
+QUESTIONANAIRE
+
+Questionnaire should have atleast one question
+Question can be of multiple type
+Question has none or many choices
+Question has no or more answer(s)
+Qurstion has a score
