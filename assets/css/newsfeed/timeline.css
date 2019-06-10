@@ -1,0 +1,472 @@
+/* Timeline */
+.news-timeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.news-timeline  a{
+    color: dimgray;
+}
+.news-timeline a:hover, .comment-unit a:hover {
+    color: #ff7728 !important
+}
+
+.news-timeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+  #newsfeed{
+    padding: 0;
+    margin: -5px;
+  }
+
+  .news-timeline > li {
+    margin-bottom: -10px;
+  }
+  .events-calendar {
+    padding: 0 20px 20px 20px !important;
+    margin: -10px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) {
+  .news-timeline > li {
+    margin-bottom: 5px;
+  }
+}
+
+.unit > p.msg_wrap { 
+  word-wrap:break-word; 
+  padding: 0 20px;
+}
+
+.actionUnits {
+    padding: 0px 10px;
+}
+  /* Highlight */
+
+  /* Likes */
+div .liked a{
+    color: #ff7728;
+}
+
+div .liked a:hover, a.liked:hover{
+    color: red;
+}
+
+a.liked{
+    font-weight: bold;
+}
+
+.like-section a {
+    font-size: small;
+    color: darkgray;
+}
+
+.like-section a:hover{
+    color: dimgray;
+}
+
+.like-section i{
+    padding: 5px 3px 0px 3px;
+    font-size: 13px;
+}
+.like-section {
+   margin: 0px 10px 5px 18px;
+}
+
+.likes-comment-counter > span{
+    margin-right: 10px;
+    font-size: small;
+}
+
+.reply-like {
+    margin-bottom: 3px;
+    margin-left: 23px;
+}
+
+.reply-like a {
+    margin-right: 10px;
+    color: #3c8dbc;
+    font-size: 11px;
+    padding-left: 2px;
+}
+
+.reply-like a i {
+    font-size: smaller;
+}
+
+ul.reply-thread{
+    padding-left: 25px;
+    border-left: 1px solid rgba(0,0,0, 0.2) !important;
+    margin-top: -5px;
+    /*padding-top: 10px;*/
+}
+
+a .pin-disabled {
+   pointer-events: none;
+   cursor: default;
+}
+
+.pinned {
+    float: right;
+    font-size: large;
+    margin-top: -43px;
+    margin-right: -8px;
+}
+
+a.commenter {
+    color: dimgray !important;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.news-timeline > li {
+  float: left;
+  clear: left;
+  position: relative;
+  z-index: 2;
+  padding: 0;
+}
+.news-timeline > .right {
+  float: right;
+  clear: right;
+}
+.news-timeline .pointer {
+  
+  width: 19px;
+  height: 15px;
+  position: absolute;
+  right: -18px;
+  top: 20px;
+}
+.news-timeline .right > .pointer {
+  left: -18px;
+  right: auto;
+  background-position: -61px -28px;
+}
+.news-timeline > .left + .right > .pointer {
+  top: 40px;
+}
+.news-timeline > .right + li > .pointer {
+  top: 40px;
+}
+.news-timeline .highlight {
+  clear: both;
+  width: auto;
+  float: none;
+}
+.news-timeline .highlight .pointer {
+  background-image: url(../../assets/img/icons-5.png);
+  background-position: -26px -28px;
+  height: 21px;
+  width: 15px;
+  left: 50%;
+  top: -20px !important;
+  margin-left: -7px;
+}
+.news-timeline .spine {
+  position: absolute;
+  left: 436px;
+  width: 29px;
+  height: 100%;
+  z-index: 1;
+}
+.news-timeline .spine > a,
+.news-timeline .spine a:visited {
+  display: block;
+  height: 100%;
+}
+/* Unit */
+.unit {
+    background: #fff;
+    /*padding: 5px;*/
+}
+.storyUnit > video {
+  margin-top: 15px;
+}
+.imageUnit{
+  /*border-bottom: 1px #ccc solid;*/
+  padding: 15px 20px 0px 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.imageUnit p > a, .imageUnit p > span {
+  color: #758390;
+}
+.imageUnit > a > img{
+  border-radius: 50%;
+  width: 35px;
+}
+.imageUnit .imageUnit-content {
+    /*display: inline-block;
+    vertical-align: top;*/
+    padding-left: 5px;
+    width: -webkit-fill-available;
+    margin: -25px 20px 0 35px;
+}
+.imageUnit .imageUnit-content > p {
+  margin: 0;
+}
+.formUnit {
+  border: 1px solid #B4BBCD;
+  padding: 5px;
+  margin-top: 10px;
+  position: relative;
+}
+.formUnit .active {
+  background: url(../../img/active-unit.png) top left no-repeat;
+  position: absolute;
+  left: 10px;
+  top: -6px;
+  width: 9px;
+  height: 6px;
+}
+.formUnit .active_pic {
+  background: url(../../img/active-unit.png) top left no-repeat;
+  position: absolute;
+  left: 80px;
+  top: -6px;
+  width: 9px;
+  height: 6px;
+}
+
+.formUnit .active_vid {
+  background: url(../../img/active-unit.png) top left no-repeat;
+  position: absolute;
+  left: 180px;
+  top: -6px;
+  width: 9px;
+  height: 6px;
+}
+
+.formUnit .active_poll {
+    background: url(../../img/active-unit.png) top left no-repeat;
+    position: absolute;
+    left: 260px;
+    top: -6px;
+    width: 9px;
+    height: 6px;
+}
+
+.photoUnit {
+  margin: 0 -10px -5px -10px;
+}
+.controls {
+  /*background: #F2F2F2;*/
+  margin: 5px -5px -5px -5px;
+  list-style: none;
+  padding: 4px;
+  /*border-top: 1px #E6E6E6 solid;*/
+}
+.controls > li {
+  display: inline-block;
+}
+.controls .post {
+  float: right;
+}
+/* Actions */
+.actions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 11px;
+}
+.actions > li {
+  display: inline;
+  border-left: 1px #E5E5E5 solid;
+  float: left;
+}
+.actions > li:first-child {
+  border-left: none;
+}
+.actions > li > a {
+  padding: 5px 5px;
+  margin: 0 3px;
+  display: inline-block;
+}
+.actions > li > a:hover {
+  background: #EBEEF4;
+  text-decoration: none;
+}
+.actions .active > a {
+  color: #000;
+}
+
+textarea[name='message']{
+    border: none;
+    width: 100%;
+    padding: 0;
+    font-size: 13px;
+    resize: vertical;
+}
+/* Story Actions */
+.storyActions {
+  background: #EDEFF4;
+  list-style: none;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 11px;
+}
+.storyActions > li {
+  display: inline;
+}
+.storyActions > li:before {
+  content: " · ";
+}
+.storyActions > li:first-child:before {
+  content: '';
+}
+/* Icons */
+.newsfeed-icon {
+  width: 16px;
+  height: 16px;
+  background: url(../../img/icons-newsfeed.png) top left no-repeat;
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.icon-status {
+  background-position: 0 -308px;
+}
+.icon-photo {
+  background-image: url(../../img/icons-3.png);
+  background-position: -68px -118px;
+}
+.icon-video {
+  background: url('../../img/icons-3.png') no-repeat -20px -136px;
+}
+.icon-poll {
+    width: 16px;
+    height: 16px;
+    background: url(../../img/icons-newsfeed.png);
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+    background-position: -52px 151px;
+}
+.icon-place {
+  background-image: url(../../img/icons-2.png);
+  background-position: -664px -80px;
+}
+.icon-event {
+  background-image: url(../../img/icons-2.png);
+  background-position: -647px -80px;
+}
+/* Spinner */
+#Spinner {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.imageUnit-content h4{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+}
+
+.newsfeed_img {
+  width: 100%;
+}
+
+.img_post {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.post-action{
+  float:right; text-align:right;
+  line-height: 2.5;
+  font-size: 16px;
+}
+
+.msg_wrap {
+    text-align: justify;
+    padding-left: 10px;
+    color: #464646;
+}
+
+div.msg_wrap {
+    display: contents;
+}
+
+
+.load-more-comments {
+    text-align: center;
+}
+
+
+
+ol.adpt_inputs_list {
+    margin: -5px 0 5px -40px;
+    list-style: none;
+}
+
+    ol.adpt_inputs_list li {
+        margin: 0 0 5px 0;
+    }
+
+#pollpost {
+    font-size: 13px;
+}
+
+.btn-vote {
+    border-radius: 3px;
+    margin-bottom: 7px;
+    margin-right: 15px;
+    padding: 0;
+}
+
+div.options {
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+.options div {
+    font-size: small;
+}
+
+.poll_bg {
+    height: 15px;
+    display: block;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding-left: 0px;
+}
+
+.poll_bar {
+    height: 10px;
+    background: #ff8533;
+    display: block;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.vote_count {
+    color: #AAA;
+}
+
+#tabs{
+    padding: 10px;
+}
+
+#update_newsfeed_form {
+    margin-bottom: 15px !important;
+}

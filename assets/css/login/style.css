@@ -1,0 +1,93 @@
+/***** GLOBAL *****/
+
+input, textarea, select, button{
+  border-radius: 0!important;
+}
+
+/***** END GLOBAL *****/
+
+/***** LOGIN *****/
+
+.login-page{
+  background: url('../../img/congruent_pentagon.png');
+}
+
+.login-page .container{
+  max-width: 300px;
+}
+.login-page .login-form{
+  margin-top: 20%;
+  background: rgba(255,255,255, 0.8);
+  padding-bottom: 30px;
+}
+.login-page .login-form h1{
+  color: #fff;
+  display: block;
+  background-image: url('../../img/logo.png');
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 87px;
+  background-size: 100%;
+}
+.login-page .login-form input{
+  background: #ecf2f4;
+  border: none;
+  margin: 10px 0;
+}
+.login-page .login-form input:hover{
+  text-shadow: 0 0 0 #000;
+}
+.login-page .login-form input[type='submit']{
+  background: #3399FF;
+  border: none;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.login-page .login-form input[type='submit']:hover{
+  background: #99CC99;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.login-page .copyright{
+  margin-top: 15px;
+}
+/***** END LOGIN *****/
+
+
+/**** HEADER *****/
+.header .logo{
+  background: #fff;
+}
+.header .logo:hover{
+  background: #fff;
+}
+.header .navbar{
+
+}
+.header .sidebar-toggle{
+  background: #89B806;
+}
+/**** END HEADER *****/
+
+/***** FORGOT PASSWORD *****/
+.login-page .reset-password-form{
+    margin-top: 20%;
+    background: rgba(255,255,255, 0.8);
+    padding-bottom: 30px;
+}
+.login-page .reset-password-form input{
+    border: none;
+    margin: 10px 0;
+}
+.login-page .reset-password-form input:hover{
+    text-shadow: 0 0 0 #000;
+}
+.login-page .reset-password-form #continue-btn{
+    float: left;
+    width: 49%;
+}
+.login-page .reset-password-form #cancel-btn{
+    float: right;
+    width: 49%;
+}
+/***** END FORGOT PASSWORD *****/

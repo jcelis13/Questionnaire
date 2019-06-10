@@ -1,0 +1,421 @@
+/* Misc */
+/*header .logo{background: #fff!important;}
+header .logo:hover{background: #fff!important;}*/
+
+.btn-delete{background:#ff0000; color:#fff;}
+.btn-delete:hover{color:#fff;}
+.btn-delete:active{color:#fff;}
+.btn-delete:visited{color:#fff;}
+.pagination{margin: 0;}
+
+.box .box-header li.active a:not(.btn){color: #fff;}
+
+.no-print{display: none;}
+
+/* Logo */
+/*header .logo img{height: 40px;}
+.header .logo .icon{margin-right: 45px!important;}*/
+
+/* Home page */
+/*** Announcement ***/
+.announcement-list {
+    list-style: none;
+    width: 245px;
+    float: right;
+}
+    .announcement-list li { /*background: #f3f4f5;*/
+        cursor: pointer;
+        margin: 5px 0;
+        color: #535050;
+        font-weight: 700;
+    }
+.announcement-list li a{display: block;}
+.sched {
+    float: left;
+    margin-right: -35px;
+    margin-top: 15px;
+}
+.sched p {
+    width: 40px;
+    color: #fff;
+    font-size: x-small;
+    margin-bottom: 0;
+}
+        /** Infractions **/
+        .infractions_table tr th:last-of-type{
+  width: 100px;
+}
+.infraction_table_header label{margin-right: 15px;}
+
+/*** Leave **
+form.leave div span.input-group-addon{width: 128px; text-align:left;}*/
+div.leave div.input-group{width: 100%;}
+
+/*** Pay Period **/
+.payeriod_display{
+    height: 350px;
+   overflow: auto;
+}
+
+/* sidebar user panel */
+.sidebar .user-panel .info i{
+  font-size: 10px;
+  font-style: normal;
+}
+
+.shadow-boxes {
+    background: #fff;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, .08);
+}
+
+#calendar-timesheet {
+    margin-bottom: 20px;
+    padding: 0 7%;
+}
+/** TIME TRACKER STYLE*/
+/*** TIME TARCKER ***/
+#time-tracker-form {
+    padding: 0;
+}
+    #time-tracker-form.col-xs-6 {
+        padding: 0;
+        margin-top: 5px;
+    }
+
+.date, .clock, .wday {
+    font-weight: bold;
+    text-align: right;
+    font-size: 14px;
+    color: lightslategrey;
+    /*line-height: 3.5;*/
+}
+
+.date {
+    padding: 15px !important;
+}
+
+.date_day, .date_time{
+    display: inline;
+}
+
+@media(max-width: 767px){
+    .date{
+        margin-top: 5px;
+    }
+
+    .header-search-group {
+        position: fixed;
+        margin-top: -47px;
+        margin-left: 50px;
+    }
+
+    #profile-search-input::-webkit-input-placeholder {
+        color: transparent !important;
+    }
+
+    #profile-search-input:-moz-placeholder { /* Firefox 18- */
+        color: transparent !important;
+    }
+
+    #profile-search-input::-moz-placeholder { /* Firefox 19+ */
+        color: transparent;
+    }
+
+    #profile-search-input:-ms-input-placeholder {
+        color: transparent !important;
+    }
+
+    #calendar-timesheet .fc-content{
+        display: none !important;
+    }
+
+    #calendar-timesheet .fc-header{
+        width: 90%;
+        border-bottom: 1px solid rgba(0,0,0,0.15);
+        margin: 0 auto;
+    }
+    #calendar-timesheet .fc-header-title h2 {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 840px){
+    .date, .clock, .wday {
+        text-align: center; 
+        margin-top: 9px;
+    }
+    .sweekday, .sday{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .date_day{
+        font-size: 16px;
+    }
+    .date_day, .date_time {
+        width: 55px;
+        display: block;
+        text-align: justify;
+        margin: 0 auto;
+        line-height: 1;
+        font-weight: 400;
+    }
+    .smonth{
+        display: none;
+    }
+    .date{
+        padding: unset !important;
+    }
+
+  
+    #profile-search-input{
+        width: 75px !important;
+    }
+    
+        
+}
+
+
+
+.header-search-group{
+    padding-top: 7px;
+}
+
+#profile-search-input {
+    border: 0;
+    width: 100px;
+    background: transparent;
+}
+.header-search-group > .input-group-btn > #search-btn{
+        background: #fff !important;
+    }
+
+
+.time-tracker-buttons {
+    vertical-align: middle;
+    padding: 0;
+    width: 160px;
+    margin-top: 5px;
+}
+.time-tracker-buttons hr{
+    border: 1px solid;
+    margin-top: 30px;
+    vertical-align: middle;
+    width: 50%;
+}
+.left{
+    float:left;
+    margin: auto 5px;
+}
+
+.time-in, .time-out {
+    /*width: 25%;*/
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0px 5px;
+    margin-top: 3px !important;
+}
+
+.time-in-out{
+    /*margin-top: -10px;*/
+}
+
+.time-in .time-phrase, .time-out .time-phrase{
+    margin-top : 15px;
+    margin-bottom: 0px;
+}
+
+.time {
+    border: 2px solid white;
+    padding: 4px 10px;
+    color: white;
+    font-size: 11px;
+}
+
+.user-time-in, .user-time-out{
+    margin-top: -5px !important;
+
+}
+
+.time-in.active, .time-out.active {
+    /*background-image: url(../img/time-button-active.png);*/
+    cursor: pointer;
+    background: #ffca10;
+    
+}
+
+.time-in.inactive, .time-out.inactive{
+    /*background-image: url(../img/time-button-inactive.png); */
+    cursor:not-allowed;
+    background: gray;
+}
+
+#undertime_reason{
+    text-align: left;
+}
+
+/** Employee scheduler **/
+.break input.input{
+    width: 60px;
+}
+
+input.time-in-txt.form-control.input-small,
+input.time-out-txt.form-control.input-small{
+    font-weight: normal;
+}
+
+.company-name {
+    color: #ffffff;
+    float: left;
+    padding: 10px;
+}
+@media (max-width: 991px) {
+    .company-name {
+        /*padding-top: 3.5%;*/
+    }
+}
+#payroll-content {
+    /*margin-top: 65px;*/
+}
+
+.status-approved {
+    color: #5cb85c;
+}
+.status-pending {
+    color: #f0ad4e;
+}
+.status-denied {
+    color: #d9534f;
+}
+.status-reviewed {
+    color: #337ab7;
+}
+
+.status{
+    font-weight: bold;
+}
+
+.events-calendar{
+    padding: 0 40px 20px 25px;
+}
+
+#events_panel{
+    padding: 5px;
+}
+
+.photo_comment {
+    margin-bottom: 5px;
+}
+.photo_comment > img.newsfeed_img {
+    max-height: 100px !important;
+    width: auto;
+}
+
+.typeahead > li > a:hover,
+.typeahead > li > a:focus, .typeahead > li.active > a {
+    color: #fff !important;
+    text-decoration: none;
+     background: #ff7728 !important;
+     padding-left: 20px;
+}
+
+.side-footer {
+    background: white;
+    padding: 15px 25px;
+    font-size: 9pt;
+    box-shadow: 2px 1px 15px -1px rgba(0, 0, 0, .08);
+    color: darkgray;
+}
+
+.sidebar-collapse .side-footer{
+    padding: 5px !important;;
+}
+
+#external-cal-title{
+    text-align: center;
+    margin-top: -30px;
+    font-size: large;
+}
+
+.uibutton.confirm:focus, .uibutton.confirm:active,
+.btn.btn-primary:focus {
+    background: #fa6400;
+}
+
+
+@media(min-width: 768px) {
+    .content {
+        margin-right: 4%;
+    }
+    #emoticon_legend {
+        width: 330px;
+    }
+
+@media(min-width: 992px){
+    .events-calendar {
+        padding: 0px 30px 20px 25px;
+        position: fixed;
+        right: 4%;
+        width: 31%;
+        height: 100%;
+        overflow-y: AUTO;
+    }
+
+    #newsfeed {
+        width: 55.333333%;
+    }
+    .sidebar-mini.sidebar-collapse #newsfeed {
+        width: 65% !important;
+    }
+}
+
+@media(min-width: 1200px) {
+    #newsfeed {
+        width: 57.5%;
+    }
+}
+@media(min-width: 1280px) {
+    .content-wrapper{
+        margin-left: calc(233px + 4.3%);
+    }
+    
+}
+
+@media(min-width: 1360px) {
+    #newsfeed {
+        width: 56%;
+    }
+
+    .sidebar-mini.sidebar-collapse #newsfeed {
+        width: 62% !important;
+    }
+
+    .main-header {
+        padding-left: 7%;
+    }
+
+    .main-sidebar {
+        margin-left: 7% !important;
+    }
+
+    .events-calendar {
+        right: 7%;
+        width: 29%;
+    }
+
+    .main-header .navbar-custom-menu {
+        padding-right: 8.5%;
+    }
+
+    .content-wrapper {
+        margin-left: calc(230px + 7%);
+    }
+
+    .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .right-side, .sidebar-mini.sidebar-collapse .main-footer {
+        margin-left: calc(95px + 4.3%) !important;
+    }
+}
+

@@ -1,0 +1,111 @@
+#coachings-table a.coaching-details,
+#coachings-table a.coaching-edit,
+#coachings-table a.coaching-delete {
+	display: inline-block;
+	margin: 0 2px;
+	font-size: 13px;
+}
+.modal[data-module="coaching"] .panel {
+	border: 1px solid #f39c12;
+}
+.modal[data-module="coaching"] .panel-title {
+	font-size: 14px;
+}
+.modal[data-module="coaching"] small.error {
+	text-transform: none; 
+	font-weight: normal;
+	display: none;
+}
+.modal[data-module="coaching"] .form-group.has-error small.error {
+	display: initial;
+}
+.modal[data-module="coaching"] .panel .panel-heading {
+	background-color: #f39c12 !important;
+	border-top: 2px solid #f39c12;
+}
+.modal[data-module="coaching"]#details .panel.readonly .panel-heading {
+	background-color: #fff !important;
+	border-top: none;
+}
+.modal[data-module="coaching"] .panel .panel-heading a {
+	display: block;
+	color:  #fff;
+}
+.modal[data-module="coaching"]#details .panel.readonly .panel-heading a {
+	color: #f39c12;
+	font-weight: bold;
+}
+.modal[data-module="coaching"] .panel .panel-heading a:active,
+.modal[data-module="coaching"] .panel .panel-heading a:focus,
+.modal[data-module="coaching"] .panel .panel-heading a:hover {
+	color: #fff;
+}
+.modal[data-module="coaching"] .panel .panel-body {
+	background-color: #EAEDE5;
+}
+.modal[data-module="coaching"] textarea[readonly] {
+	background-color: #fff;
+}
+.modal[data-module="coaching"] .panel-heading a[data-toggle="collapse"]:after {
+    /* symbol for "opening" panels */
+    font-family: 'FontAwesome';  /* essential for enabling glyphicon */
+    content: "\f106";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: #fff;         /* adjust as needed */
+}
+.modal[data-module="coaching"]#details .panel.readonly .panel-heading a[data-toggle="collapse"]:after {
+	color: #f39c12;
+}
+.modal[data-module="coaching"] .panel-heading a[data-toggle="collapse"].collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f107";    /* adjust as needed, taken from bootstrap.css */
+}
+.modal[data-module="coaching"] .panel textarea {
+	resize: none;
+	min-height: 125px;
+}
+.modal[data-module="coaching"]#create .panel .panel-heading h4 a {
+	/*font-weight: bold;*/
+}
+.modal[data-module="coaching"]#create .panel .panel-body label {
+	/*font-weight: normal;*/
+}
+.modal[data-module="coaching"]#create .input-group-addon {
+	font-weight: bold;
+}
+.datepicker.dropdown-menu {
+	border-radius: 0 !important;
+}
+.datepicker.dropdown-menu th,
+.datepicker.dropdown-menu td {
+	padding: 8px 10px !important;
+}
+.select2-selection.select2-selection--single {
+	border-radius: 0px;
+}
+.select2-container--bootstrap .select2-search--dropdown .select2-search__field {
+	border-radius: 0px;
+}
+.select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+	display: inline;
+} 
+.select2-container--bootstrap .select2-selection--single .select2-selection__rendered .label {
+	font-weight: normal; 
+	display: inline-block; 
+	padding: 5px 8px; 
+	vertical-align: top; 
+	margin-bottom: 0;
+	border-radius: 0px;
+}
+.select2-results__option .label {
+	font-weight: normal;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 5px;
+    vertical-align: top;
+    padding: 5px 8px;
+    border-radius: 0px;
+} 
+.select2-results__option .pd {
+	margin-left: 25px;
+}

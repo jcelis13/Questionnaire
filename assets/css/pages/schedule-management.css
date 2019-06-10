@@ -1,0 +1,66 @@
+.schedule-management-alert .alert {
+    border-radius: 0;
+}
+.nav-tabs {
+    margin-bottom: 5px;
+    box-shadow: none;
+}
+.nav-tabs-custom > .nav-tabs {
+    margin-bottom: 15px;
+}
+.nav-tabs-custom > .nav-tabs > li.active {
+    font-weight: bold;
+}
+.nav-tabs-custom > .tab-content {
+    padding: 0;
+}
+
+.dataTables_length, .dataTables_info {
+    margin-left: 15px;
+}
+div.dataTables_paginate {
+    margin-right: 15px;
+}
+#employee-schedule-modal .dropdown-menu li a.selected span {
+    color: #ff8533;
+}
+#employee-schedule-modal .dropdown input {
+    cursor: pointer;
+    background: #FFF;
+}
+#employee-schedule-modal .dropdown-menu li a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+#employee-schedule-modal .dropdown-menu li a span {
+    width: 14px;
+    margin-right: 5px;
+    font-size: 17px;
+    vertical-align: text-bottom;
+}
+#employee-schedule-modal .form-group {
+    margin-bottom: 0;
+}
+.days-group .dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+}
+.btn-danger.btn-inverse {
+    color: #dd4b39;
+    border: 1px solid #dd4b39;
+    padding: 5px 11px;
+    background: rgba(255,255,255, 0.5);
+}
+.form-group.has-error .input-group-addon {
+    border-color: rgb(221, 75, 57);
+}
+.form-group small {
+    display: none;
+}
+.form-group.has-error small {
+    display: inline-block;
+}
+table tbody tr td a.more {
+    text-decoration: underline;
+}
